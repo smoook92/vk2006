@@ -4,6 +4,8 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-336791?logo=postgresql)](https://postgresql.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Architecture: MVC](https://img.shields.io/badge/Architecture-MVC-blueviolet)](https://en.wikipedia.org/wiki/Model–view–controller)
+[![GitHub last commit](https://img.shields.io/github/last-commit/smoook92/vk2006)](https://github.com/smoook92/vk2006/commits/main)
+[![GitHub repo size](https://img.shields.io/github/repo-size/smoook92/vk2006)](https://github.com/smoook92/vk2006)
 
 **Образовательный full-stack проект** — реализация классической социальной сети в стиле ВКонтакте образца 2006 года.  
 Чистый PHP, собственная архитектура, PostgreSQL и атмосфера web 1.0.
@@ -187,14 +189,14 @@ chmod 664 var/logs/app.log
 | <span style="color:#10B981">**GET**</span> | `/photos` | 🖼️ Мои фотоальбомы | ✅ |
 | <span style="color:#F59E0B">**POST**</span> | `/logout` | 🚪 Выход | ✅ |
 
-🗄️ Основные таблицы БД
-    users — пользователи системы
-    profiles — расширенные данные профилей
-    friend_requests — заявки в друзья
-    friends — подтверждённые дружеские связи
-    messages — личные сообщения
-    photos — загруженные изображения
-    sessions — активные JWT-сессии
+### 🗄️ **Основные таблицы БД**
+- `users` — пользователи системы
+- `profiles` — расширенные данные профилей
+- `friend_requests` — заявки в друзья
+- `friends` — подтверждённые дружеские связи
+- `messages` — личные сообщения
+- `photos` — загруженные изображения
+- `sessions` — активные JWT-сессии
 
 🧪 Разработка
 Запуск для разработки
